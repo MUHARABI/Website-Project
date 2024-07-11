@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #16304b;
+    color: #fff;
+    text-align: center;
+    padding: 0.00005rem; /* Reduced padding */
+    border-bottom: 2px solid #0d2538; /* Dark blue and less thick */
+    font-size: 1.0rem; /* Adjust font size if needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header-img {
+    max-width: 120px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px; /* Space between image and text */
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-text {
+    display: inline-block;
+}
+
+.tabs {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between; /* Ensure the buttons spread across the width */
+}
+
+.tabs button {
+    background-color: inherit;
+    flex: 1; /* Each button takes up an equal share of the available space */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    text-align: center; /* Center text within the buttons */
+    font-size: 1rem; /* Adjust font size if needed */
+}
+
+.tabs button:hover {
+    background-color: #ddd;
+}
+
+.tabs button.active {
+    background-color: #ccc;
+}
+
+main {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: #fff; 
+    border: 1px solid #fff;
+    margin-top: -1px;
+    height: 100%;
+}
+
+footer {
+    background-color: #16304b;
+    color: #fff;
+    text-align: center;
+    padding: 0.00005rem; 
+    border-top: 2px solid #0d2538; 
+    font-size: 0.7rem; 
+}
+
+.hobby {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.hobby img {
+    position: absolute;
+    right: 0;
+    max-width: 200px;
+    height: auto;
+}
+
+.download-button {
+    background-color: #16304b; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.download-button:hover {
+    background-color: #d61919;
+}
+
+
+.profile-img {
+    float: left;
+    max-width: 150px; 
+    margin-right: 10px; 
+    margin-top: 0px; 
+}
+
+#Profile {
+    display: flex;
+    align-items: center;
+}
+.soccer-img{
+    float: left;
+    max-width: 125px; 
+    margin-right: 10px; 
+    margin-top: 0px;
+}
+.VideoGames-img{
+    float: left;
+    max-width: 90px; 
+    margin-right: 10px; 
+    margin-top: 0px;
+}
+.travel-img{
+    float: left;
+    max-width: 125px; 
+    margin-right: 10px; 
+    margin-top: 0px;
+}
