@@ -19,7 +19,7 @@ header {
     font-size: 1.0rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
 }
 
@@ -35,6 +35,23 @@ header {
 
 .header-text {
     display: inline-block;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-logo {
+    width: 30px; /* Increased size */
+    height: auto;
+    vertical-align: middle;
 }
 
 .tabs {
@@ -83,17 +100,27 @@ footer {
     background-color: #16304b;
     color: #fff;
     text-align: center;
-    padding: 0.00005rem;
+    padding: 10px;
     border-top: 2px solid #0d2538;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    margin-left: 10px;
 }
 
 .hobby {
     position: relative;
     margin-bottom: 20px;
 }
-
-
 
 .download-button {
     background-color: #16304b; 
@@ -136,9 +163,7 @@ footer {
     margin-right: 15px;
 }
 
-.VideoGames-img{
+.VideoGames-img {
     max-width: 350px;
     margin-right: 65px;
 }
-
-
