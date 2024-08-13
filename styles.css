@@ -40,7 +40,7 @@ header {
 
 .header-text h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2rem; /* Default size */
 }
 
 .social-links {
@@ -115,8 +115,11 @@ footer {
     padding: 10px;
     font-size: 0.8rem;
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%;
 }
 
+/* Hobby Section */
 .hobby {
     display: flex;
     flex-direction: column;
@@ -306,6 +309,13 @@ footer {
         max-width: 100%;
         overflow-x: auto; /* Allow horizontal scrolling if needed */
         border-bottom: 1px solid #ddd; /* Ensure the bottom border is visible */
+    }
+
+    /* Ensure language tab border continuity */
+    .language-images {
+        position: relative;
+        width: 100%;
+        border-bottom: 1px solid #ddd; /* Ensure bottom border continuity */
     }
 
     /* Ensure footer border continues */
