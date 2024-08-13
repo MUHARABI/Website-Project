@@ -1,307 +1,286 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUHAMMED H ARABI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="uic.png" alt="UIC Logo" class="header-img">
+        <div class="header-text">
+            <h1>Muhammed Arabi</h1>
+            <p>3rd year UIC CS student</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/muhammed-arabi-b9659926b/" target="_blank">
+                    <img src="linkedin.png" alt="LinkedIn Logo" class="social-logo">
+                </a>
+                <a href="https://www.instagram.com/muha.mmed10/" target="_blank">
+                    <img src="instagram.png" alt="Instagram Logo" class="social-logo">
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="tabs">
+    <button class="tablinks" aria-controls="Profile" onclick="openSection(event, 'Profile')">Profile</button>
+    <button class="tablinks" aria-controls="Education" onclick="openSection(event, 'Education')">Education</button>
+    <button class="tablinks" aria-controls="Languages" onclick="openSection(event, 'Languages')">Coding Languages</button>
+    <button class="tablinks" aria-controls="Experience" onclick="openSection(event, 'Experience')">Work Experience</button>
+    <button class="tablinks" aria-controls="Projects" onclick="openSection(event, 'Projects')">Projects</button>
+    <button class="tablinks" aria-controls="PersonalProjects" onclick="openSection(event, 'PersonalProjects')">Personal Projects</button>
+    <button class="tablinks" aria-controls="Hobbies" onclick="openSection(event, 'Hobbies')">Hobbies</button>
+</div>
+    <main>
+        <section id="Profile" class="tabcontent">
+            <div class="profile-container">
+                <img src="Profile.png" alt="Profile Image" class="profile-img">
+                <div class="profile-text">
+                    <div class="profile-name">
+                        <h2>Muhammed Husam Arabi</h2>
+                    </div>
+                    <p>
+                        Age: 19 <br>
+                        Major: Bachelor of Science in Computer Science <br>
+                        Education: University of Illinois at Chicago (Continuing Student)<br>
+                        Expected graduation: Spring 2026 <br><br>
+                        
+                        Phone Number: (630)-333-0416 <br>
+                        Email: muhammedharabi10@gmail.com <br><br>
+                        
+                        About me: <br>
+                        Enthusiastic and dedicated 3rd year Computer Science student with a 
+                        solid foundation in software development, problem-solving, and computer 
+                        systems developing and improving my programing skills and algorithmic 
+                        understanding of various programs and systems through first hand exposure 
+                        and engagement. 
+                    </p>
+                </div>
+            </div>
+        </section>
+        
 
-header {
-    background: linear-gradient(90deg, #16304b, #0d2538);
-    color: #fff;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
+        <section id="Education" class="tabcontent">
+            <h1>Courses Taken:</h1>
+            <h3>AP Computer Science A</h3>
+            <h4>High School Year: 2021-22</h4>
+            <p>
+                Introduction to the basic fundamentals of computer science including basic 
+                coding techniques in JAVA and basic discrete math skills. <br> <br>
+                Coding language(s) used: <b>JAVA</b> <br>
+            </p>
+            <h3>CS 111 Program design I</h3>
+            <h4>Fall 2022 (UIC)</h4>
+            <p>
+                Introduction to basic programming in Python. 
+                Exposure to variables, data types, arrays, 
+                and problem decomposition. 
+                Project based course that covers full 
+                basic fundamentals of beginners coding. <br> <br>
+                Coding language(s) used: <b>Python</b><br>
+            </p>
+            <h3>CS 141 Program design II</h3>
+            <h4>Spring 2023 (UIC)</h4>
+            <p>
+                This course covered Data abstraction 
+                and design through modules.
+                Introduced recursion, linked lists, 
+                file manipulation through various projects and 
+                programming excercies in C++ <br> <br>
+                Coding language(s) used: <b>C++</b> <br>
+            </p>
+            <h3>CS 151 Foundations of Computing</h4>
+            <h4>Spring 2023 (UIC)</h4>
+            <p>
+                This course introduced important discrete math 
+                concepts such as propositional logic, predicates, 
+                and quantifiers. <br>
+            </p>
+            <h3>CS 211 Programming Practicum</h3>
+            <h4>Fall 2023 (UIC)</h4>
+            <p>
+                This course introduced various debugging techniques and practices 
+                as well as further software development tools and practices. 
+                Practiced various test case strategies and good code manangement. <br> <br>
+                Coding language(s) used: <b>C++</b>, <b>C</b> <br>
+            </p>
+            <h3>CS 251 Data Structures</h3>
+            <h4>Fall 2023 (UIC)</h4>
+            <p>
+                This course provided important usage and analysis of various data structurs such 
+                as lists, stacks and queues, hash tables, search trees, and graphs. 
+                Also detailed the importance of runtime analysis and best vs worse case runtime.
+                Course gave real life interview expierence and exposure through interview style oral exams. <br> <br>
+                Coding language(s) used: <b>C++</b> <br>
+            </p>
+            <h3>CS 261 Machine Organization</h3>
+            <h4>Spring 2024 (UIC)</h4>
+            <p>
+                This course handles storage management and data representation in 
+                machine langauge of programs and data. 
+                Introduced memory hierchary and strenghtened 
+                skills in debugging through various gdb labs and projects. <br>
+                Coding language(s) used: <b>C++</b>, <b>C</b> <br>
+            </p>
+            <h3>CS 301 Languages and Automata</h3>
+            <h4>Spring 2024 (UIC)</h4>
+            <p>
+                This course introduced various theoretical computer concepts such as Parsing, 
+                context free langauges, Turing Machines, decidabilty and Chomsky hierchy of grammers. 
+                Also provided exposure to various different proof strategies such as pumping lemma. <br> <br>
+            </p>
 
-.header-img {
-    max-width: 100px;
-    height: auto;
-    margin-right: 20px;
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.header-text {
-    text-align: center;
-    flex: 1;
-}
-
-.header-text h1 {
-    margin: 0;
-    font-size: 2rem;
-}
-
-.social-links {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.social-links a {
-    margin: 0 15px;
-    transition: transform 0.3s ease;
-    display: inline-block;
-}
-
-.social-links a:hover {
-    transform: scale(1.2);
-}
-
-.social-logo {
-    width: 35px;
-    height: auto;
-}
-
-.tabs {
-    background-color: #ffffff;
-    border-bottom: 1px solid #ddd;
-    display: flex;
-    justify-content: center;
-}
-
-.tabs button {
-    background-color: inherit;
-    flex: 1;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 15px;
-    transition: background-color 0.3s ease;
-    font-size: 1rem;
-}
-
-.tabs button:hover {
-    background-color: #f1f1f1;
-}
-
-.tabs button.active {
-    background-color: #e0e0e0;
-}
-
-main {
-    flex: 1;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 1200px;
-    margin: 20px auto;
-}
-
-.tabcontent {
-    display: none;
-    padding: 20px;
-}
-
-footer {
-    background: linear-gradient(90deg, #16304b, #0d2538);
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    font-size: 0.8rem;
-    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.hobby {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.hobby-img {
-    max-width: 80%;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px;
-}
-
-.hobby h3 {
-    margin-bottom: 10px;
-    font-size: 1.5rem;
-    color: #16304b;
-}
-
-.hobby p {
-    max-width: 80%;
-    margin: 0 auto;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #555;
-}
-.download-button {
-    background-color: #16304b; /* Same blue as the header */
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-.hobby-img.travel-img {
-    max-width: 40%; /* Adjust this size as needed */
-    margin-bottom: 15px; /* Ensure spacing is consistent */
-}
-
-.download-button:hover {
-    background-color: #0d2538; /* Slightly darker shade for hover effect */
-}
-.profile-container {
-    text-align: center;
-    padding: 20px 0;
-}
-
-.profile-img {
-    max-width: 200px; /* Adjust this size as needed */
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 0 auto; /* Center the image */
-    display: block;
-}
-
-.profile-text {
-    margin-top: 20px; /* Adjust spacing between image and text */
-    font-size: 1.2rem; /* Adjust font size as needed */
-    color: #16304b;
-    text-align: left; /* Restore text alignment for the rest of the text */
-}
-
-.profile-name {
-    text-align: center; /* Center only the name */
-}
-
-.language-images {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    grid-template-rows: repeat(2, auto); /* 2 rows */
-    gap: 20px; /* Space between images */
-    justify-items: center; /* Center images horizontally */
-    max-width: 100%; /* Take up the full width of the screen */
-    margin: 0 auto; /* Center the grid on the page */
-    padding: 0 10px; /* Add padding on the left and right */
-}
-
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #ddd; /* Border around each image */
-    border-radius: 8px; /* Rounded corners for the border */
-    padding: 10px; /* Padding inside the border */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
-    background-color: #fff; /* Background color for the container */
-}
-
-.language-img {
-    max-width: 100px; /* Uniform size for each image */
-    height: auto;
-    display: block; /* Prevent extra space below the image */
-}
-
-/* Make sure the last image is centered */
-.language-images .image-container:nth-child(7) {
-    grid-column: 2 / span 1; /* Center the last image */
-}
-
-
-
-
-
-
-/* Responsive Design */
-
-/* For devices with a max-width of 768px (tablets and small screens) */
-@media (max-width: 768px) {
-    .header-img {
-        max-width: 80px;
-    }
-
-    .social-logo {
-        width: 25px;
-    }
-
-    .tabs button {
-        font-size: 0.9rem;
-        padding: 10px 12px;
-    }
-
-    .hobby-img {
-        max-width: 100%;
-    }
-
-    main {
-        padding: 15px;
-        margin: 15px auto;
-    }
-
-    footer {
-        font-size: 0.7rem;
-        padding: 5px;
-    }
-}
-
-/* For portrait orientation on devices with a max-width of 480px */
-@media (max-width: 480px) and (orientation: portrait) {
-    .header-img {
-        max-width: 60px;
-    }
-
-    .social-logo {
-        width: 20px;
-    }
-
-    .tabs button {
-        font-size: 0.8rem;
-        padding: 8px 10px;
-    }
-
-    .profile-img {
-        max-width: 80px;
-    }
-
-    .hobby-img, .VideoGames-img {
-        max-width: 120px;
-        margin-right: 5px;
-    }
-
-    .tabcontent {
-        padding: 5px;
-    }
-
-    header, footer {
-        font-size: 0.8rem;
-        padding: 0.25rem;
-    }
-}
-
-/* Ensuring the layout is responsive in all orientations */
-@media (orientation: portrait) {
-    .tabs {
-        flex-direction: column; /* Stack tabs vertically on portrait */
-    }
-
-    .tabs button {
-        width: 100%; /* Make tabs full width in portrait mode */
-    }
-
-    .language-images {
-        grid-template-columns: repeat(2, 1fr); /* Adjust columns for portrait */
-        grid-template-rows: auto; /* Single row for portrait */
-    }
-
-    .language-images .image-container {
-        max-width: 90%; /* Ensure images fit well */
-    }
-}
+        </section>
+        <section id="Languages" class="tabcontent">
+            <h2>Coding Languages</h2>
+            <div class="language-images">
+                <div class="image-container">
+                    <img src="c.png" alt="C Logo" class="language-img">
+                </div>
+                <div class="image-container">
+                    <img src="c++.png" alt="C++ Logo" class="language-img">
+                </div>
+                <div class="image-container">
+                    <img src="css.png" alt="CSS Logo" class="language-img">
+                </div>
+                <div class="image-container">
+                    <img src="Python.png" alt="Python Logo" class="language-img">
+                </div>
+                <div class="image-container">
+                    <img src="Java.png" alt="Java Logo" class="language-img">
+                </div>
+                <div class="image-container">
+                    <img src="Js.png" alt="JavaScript Logo" class="language-img">
+                </div>
+                <div class="image-container">
+                    <img src="HTML.png" alt="HTML Logo" class="language-img">
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="Experience" class="tabcontent">
+            <h2>Work Experience</h2>
+            <h3>- Target</h3>
+            <p>
+                May 2024 - August 2024<br>
+                Position: Front of Store Attendant <br> <br>
+                Description: All round front end team member 
+                that worked at registers as cashiers to assist with guest shopping, 
+                helped with drive up in providing guests with there orders 
+                to there vehicles in a timely manner, 
+                and helped keep the store in good shape as cart attendant by 
+                hauling carts back in the store at a regular basis 
+            </p>
+            <h3>- Kohls</h3>
+            <p>
+                March 2023 - August 2023 <br>
+                Position: Stockroom Operations Associate <br> <br>
+                Desrciption: Well rounded team member that worked at amazon station to  
+                return amazon orders, restocked inventory from truck, 
+                and performed omni duty to complete online orders <br> <br>
+            </p>
+        </section>
+        <section id="Projects" class="tabcontent">
+            <h4>Contact List Application:</h4>
+            <p>
+                An application that features add, 
+                delete, edit and sorting features for contact info 
+                such as email,
+                number, name, etc using C++ <br>
+                <button class="download-button" onclick="window.location.href='ContactList.zip'">Download Project File</button>
+            </p>
+            <h4>Library Application:</h4>
+            <p>
+                An application that uses a search query to find books using 
+                ISBN and will show the status of the
+                book in the library, where it's available, damaged, 
+                or checked out. <br>
+                <button class="download-button" onclick="window.location.href='Library app.zip'">Download Project File</button>
+            </p>
+            <h4>UIC Map Application:</h4>
+            <p>
+                An application that can display the distance from an inputed 
+                location on the UIC campus to an inputed desired location on 
+                campus using various data structural methods such as graphs, queues, sets, and maps. <br>
+                <button class="download-button" onclick="window.location.href='UicMap.zip'">Download Project File</button>
+            </p>
+            <h4>Search Engine Application:</h4>
+            <p>
+                An application that can conduct a search 
+                based on a search query using sets and files to sort through 
+                data based on input <br>
+                <button class="download-button" onclick="window.location.href='SearchEngine.zip'">Download Project File</button>
+            </p>
+            <h4>Shape Canvaslist Application:</h4>
+            <p>
+                An application that uses linklists and pointers to identify, 
+                classify, and print specific shapes <br>
+                <button class="download-button" onclick="window.location.href='Shape.zip'">Download Project File</button>
+            </p>
+            <h4>Priority Queue Project:</h4>
+            <p>
+                An application that takes trees and manipulates, compares, 
+                and evaluates all types of aspects including size, and values. <br>
+                <button class="download-button" onclick="window.location.href='Queue.zip'">Download Project File</button>
+            </p>
+        </section>
+        <section id="PersonalProjects" class="tabcontent">
+            <h2>Personal Projects</h2>
+            <h4>3D Obstacle Course Game:</h4>
+            <p>
+                A 3D game where the player navigates through an obstacle course. <br>
+                <a href="https://muharabi.github.io/Obstacle-Roll/" target="_blank">Play the Game</a>
+            </p>
+            <h4>Connect 4 Game:</h4>
+            <p>
+                An online version of the classic Connect 4 game. <br>
+                <a href="https://muharabi.github.io/Connect4/" target="_blank">Play the Game</a>
+            </p>
+        </section>
+        <section id="Hobbies" class="tabcontent">
+            <h2>Hobbies</h2>
+        
+            <div class="hobby">
+                <img src="soccer.jpg" alt="Soccer Image" class="hobby-img">
+                <h3>Soccer</h3>
+                <p>
+                    Since I was five years old and watched the World Cup in 2010 on the television with my family, 
+                    I developed a huge passion for the sport of soccer. Whether playing for fun, 
+                    or competitively or even just watching soccer, I get the same enthusiastic passionate enjoyment. 
+                    I played competitively for club in middle school and had the opportunity to play for my high school. 
+                    Soccer has and will continue to be a great passion and part of my identity.
+                </p>
+            </div>
+        
+            <div class="hobby">
+                <img src="VideoGames.jpg" alt="Video Games Image" class="hobby-img">
+                <h3>Video Games</h3>
+                <p>
+                    There is nothing better than relaxing and playing video games after a long day. 
+                    My first exposure to video games was when I was 4 and played Wii sports and Mario Kart on my Wii. 
+                    I then began playing higher level strategy games with high skill requirements such as Call of Duty and Rocket League. 
+                    Video games for me have been a great way of challenging the brain 
+                    in unique ways through hand-eye coordination. 
+                    My passion for video games inspired me to get into computer science and 
+                    potentially pursue a career in game design.
+                </p>
+            </div>
+        
+            <div class="hobby">
+                <img src="travel.jpg" alt="Travel Image" class="hobby-img travel-img">
+                <h3>Travel</h3>
+                <p>
+                    I have been lucky enough to have had the opportunity to travel to 4 different continents and 10 different countries.
+                    These countries include Canada, Ireland, the United Kingdom, Switzerland, Turkiye, Jordan, Qatar, UAE, Egypt, and most importantly, my home country of Sudan. 
+                    I love the experience of exploring different airports and places with diverse cultures, languages, and lifestyles around the world.
+                </p>
+            </div>
+        </section>        
+    </main>
+    <footer>
+        <p>&copy; 2023 Muhammed H Arabi</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
