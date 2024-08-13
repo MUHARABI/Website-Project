@@ -17,43 +17,49 @@
                     <img src="linkedin.png" alt="LinkedIn Logo" class="social-logo">
                 </a>
                 <a href="https://www.instagram.com/muha.mmed10/" target="_blank">
-                    <img src="Instagram.jpg" alt="Instagram Logo" class="social-logo">
+                    <img src="instagram.png" alt="Instagram Logo" class="social-logo">
                 </a>
             </div>
         </div>
     </header>
     <div class="tabs">
-        <button class="tablinks" onclick="openSection(event, 'Profile')">Profile</button>
-        <button class="tablinks" onclick="openSection(event, 'Education')">Education</button>
-        <button class="tablinks" onclick="openSection(event, 'Languages')">Coding Languages</button>
-        <button class="tablinks" onclick="openSection(event, 'Experience')">Work Experience</button>
-        <button class="tablinks" onclick="openSection(event, 'Projects')">Projects</button>
-        <button class="tablinks" onclick="openSection(event, 'PersonalProjects')">Personal Projects</button>
-        <button class="tablinks" onclick="openSection(event, 'Hobbies')">Hobbies</button>
-    </div>
+    <button class="tablinks" aria-controls="Profile" onclick="openSection(event, 'Profile')">Profile</button>
+    <button class="tablinks" aria-controls="Education" onclick="openSection(event, 'Education')">Education</button>
+    <button class="tablinks" aria-controls="Languages" onclick="openSection(event, 'Languages')">Coding Languages</button>
+    <button class="tablinks" aria-controls="Experience" onclick="openSection(event, 'Experience')">Work Experience</button>
+    <button class="tablinks" aria-controls="Projects" onclick="openSection(event, 'Projects')">Projects</button>
+    <button class="tablinks" aria-controls="PersonalProjects" onclick="openSection(event, 'PersonalProjects')">Personal Projects</button>
+    <button class="tablinks" aria-controls="Hobbies" onclick="openSection(event, 'Hobbies')">Hobbies</button>
+</div>
     <main>
         <section id="Profile" class="tabcontent">
-            <h2>Profile</h2>
-            <img src="Profile.png" alt="Profile Image" class="profile-img">
-            <h3>Muhammed Husam Arabi</h4>
-            <p>
-                Age: 19 <br>
-                Major: Bachelor of Science in Computer Science <br>
-                Education: University of Illinois at Chicago (Continuing Student)<br>
-                Expected graduation: Spring 2026 <br> <br>
-                
-                Phone Number: (630)-333-0416 <br>
-                Email: muhammedharabi10@gmail.com <br><br>
-                
-                About me: <br>
-                Enthusiastic and dedicated 3rd year Computer Science student with a 
-                solid foundation in software development, problem-solving, and computer 
-                systems developing and improving my programing skills and algorithmic 
-                understanding of various programs and systems through first hand exposure 
-                and engagement. 
-
-            </p>
+            <div class="profile-container">
+                <img src="Profile.png" alt="Profile Image" class="profile-img">
+                <div class="profile-text">
+                    <div class="profile-name">
+                        <h2>Muhammed Husam Arabi</h2>
+                    </div>
+                    <p>
+                        Age: 19 <br>
+                        Major: Bachelor of Science in Computer Science <br>
+                        Education: University of Illinois at Chicago (Continuing Student)<br>
+                        Expected graduation: Spring 2026 <br><br>
+                        
+                        Phone Number: (630)-333-0416 <br>
+                        Email: muhammedharabi10@gmail.com <br><br>
+                        
+                        About me: <br>
+                        Enthusiastic and dedicated 3rd year Computer Science student with a 
+                        solid foundation in software development, problem-solving, and computer 
+                        systems developing and improving my programing skills and algorithmic 
+                        understanding of various programs and systems through first hand exposure 
+                        and engagement. 
+                    </p>
+                </div>
+            </div>
         </section>
+        
+
         <section id="Education" class="tabcontent">
             <h1>Courses Taken:</h1>
             <h3>AP Computer Science A</h3>
@@ -127,16 +133,32 @@
         </section>
         <section id="Languages" class="tabcontent">
             <h2>Coding Languages</h2>
-            <p>
-                C++<br>
-                Java<br>
-                C<br>
-                Python<br>
-                HTML<br>
-                CSS <br>
-                JavaScript 
-            </p>
+            <div class="language-images">
+                <div class="image-container">
+                    <img src="c.png" alt="C Logo" class="language-img">
+                </div>
+                <div class="image-container">
+                    <img src="c++.png" alt="C++ Logo" class="language-img">
+                </div>
+                <div class="image-container">
+                    <img src="css.png" alt="CSS Logo" class="language-img">
+                </div>
+                <div class="image-container">
+                    <img src="Python.png" alt="Python Logo" class="language-img">
+                </div>
+                <div class="image-container">
+                    <img src="Java.png" alt="Java Logo" class="language-img">
+                </div>
+                <div class="image-container">
+                    <img src="Js.png" alt="JavaScript Logo" class="language-img">
+                </div>
+                <div class="image-container">
+                    <img src="HTML.png" alt="HTML Logo" class="language-img">
+                </div>
+            </div>
         </section>
+        
+        
         <section id="Experience" class="tabcontent">
             <h2>Work Experience</h2>
             <h3>- Target</h3>
@@ -218,46 +240,43 @@
         </section>
         <section id="Hobbies" class="tabcontent">
             <h2>Hobbies</h2>
+        
             <div class="hobby">
-                <img src="soccer.jpg" alt="soccer Image" class="hobby-img">
-                <div>
-                    <h3>Soccer</h3>
-                    <p>
-                        Since I was five years old and watched the world cup in 2010 on the television with my family, 
-                        I developed a huge passion for the sport of soccer. Whether its playing for fun, 
-                        or competitively or even just watching soccer, I get the same enthusiastic passionate enjoyment. 
-                        I played competitively for club in middle school and had the opportunity to play for my high school. 
-                        Soccer has and will continue to be a great passion and part of my identity 
-                    </p>
-                </div>
+                <img src="soccer.jpg" alt="Soccer Image" class="hobby-img">
+                <h3>Soccer</h3>
+                <p>
+                    Since I was five years old and watched the World Cup in 2010 on the television with my family, 
+                    I developed a huge passion for the sport of soccer. Whether playing for fun, 
+                    or competitively or even just watching soccer, I get the same enthusiastic passionate enjoyment. 
+                    I played competitively for club in middle school and had the opportunity to play for my high school. 
+                    Soccer has and will continue to be a great passion and part of my identity.
+                </p>
             </div>
+        
             <div class="hobby">
-                <img src="VideoGames.jpg" alt="VideoGames Image" class="VideoGames-img">
-                <div>
-                    <h3>Video Games</h3>
-                    <p>
-                        There is nothing better than relaxing and playing video games after a long day. 
-                        My first exposure to video games was when I was 4 and played Wii sports and Mario kart on my wii. 
-                        I then began playing higher level strategy games with high skill requirements such as Call of duty and Rocket league. 
-                        Video games for me has been a great distraction and way of challenging the brain 
-                        in different unique ways through hand eye coordination. 
-                        My passion for videogames inspired me to get into computer science and 
-                        potentially get into a career of game design
-                    </p>
-                </div>
+                <img src="VideoGames.jpg" alt="Video Games Image" class="hobby-img">
+                <h3>Video Games</h3>
+                <p>
+                    There is nothing better than relaxing and playing video games after a long day. 
+                    My first exposure to video games was when I was 4 and played Wii sports and Mario Kart on my Wii. 
+                    I then began playing higher level strategy games with high skill requirements such as Call of Duty and Rocket League. 
+                    Video games for me have been a great way of challenging the brain 
+                    in unique ways through hand-eye coordination. 
+                    My passion for video games inspired me to get into computer science and 
+                    potentially pursue a career in game design.
+                </p>
             </div>
+        
             <div class="hobby">
-                <img src="travel.jpg" alt="travel Image" class="hobby-img">
-                <div>
-                    <h3>Travel</h3>
-                    <p>
-                        I have been lucky enough to have had the opportunity to travel to 4 different continents and 10 different countries.
-                        these countries are Canada, Ireland, United Kingdom, Switzerland, Turkiye, Jordon, Qatar, UAE, Egypt and most importantly my country of Sudan. 
-                        I love the expierence of going to different airports and places with different cultures, languages, and lifestyles around the world.
-                    </p>
-                </div>
+                <img src="travel.jpg" alt="Travel Image" class="hobby-img travel-img">
+                <h3>Travel</h3>
+                <p>
+                    I have been lucky enough to have had the opportunity to travel to 4 different continents and 10 different countries.
+                    These countries include Canada, Ireland, the United Kingdom, Switzerland, Turkiye, Jordan, Qatar, UAE, Egypt, and most importantly, my home country of Sudan. 
+                    I love the experience of exploring different airports and places with diverse cultures, languages, and lifestyles around the world.
+                </p>
             </div>
-        </section>
+        </section>        
     </main>
     <footer>
         <p>&copy; 2023 Muhammed H Arabi</p>
