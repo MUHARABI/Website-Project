@@ -1,3 +1,4 @@
+/* General Layout */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -33,6 +34,7 @@ header {
 .header-text {
     text-align: center;
     flex: 1;
+    padding: 0 20px; /* Add padding to prevent overlap */
 }
 
 .header-text h1 {
@@ -127,6 +129,11 @@ footer {
     margin-bottom: 15px;
 }
 
+.hobby-img.travel-img {
+    max-width: 40%; /* Adjust this size as needed */
+    margin-bottom: 15px; /* Ensure spacing is consistent */
+}
+
 .hobby h3 {
     margin-bottom: 10px;
     font-size: 1.5rem;
@@ -140,6 +147,7 @@ footer {
     line-height: 1.5;
     color: #555;
 }
+
 .download-button {
     background-color: #16304b; /* Same blue as the header */
     color: #fff;
@@ -149,14 +157,11 @@ footer {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-.hobby-img.travel-img {
-    max-width: 40%; /* Adjust this size as needed */
-    margin-bottom: 15px; /* Ensure spacing is consistent */
-}
 
 .download-button:hover {
     background-color: #0d2538; /* Slightly darker shade for hover effect */
 }
+
 .profile-container {
     text-align: center;
     padding: 20px 0;
@@ -215,11 +220,6 @@ footer {
     grid-column: 2 / span 1; /* Center the last image */
 }
 
-
-
-
-
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .header-img {
@@ -274,7 +274,28 @@ footer {
     }
 
     .tabcontent {
-        padding: 5px;
+        padding: 10px; /* Increased padding for better readability */
+    }
+
+    .header-text {
+        padding: 0 10px; /* Reduced padding to fit in portrait */
+        font-size: 1.5rem; /* Adjust font size for better fit */
+    }
+
+    .social-links {
+        right: 10px; /* Adjust position to prevent overlap */
+    }
+
+    .profile-img {
+        max-width: 70px; /* Adjust profile image size */
+    }
+
+    .hobby-img {
+        max-width: 90%; /* Adjust hobby image size */
+    }
+
+    .hobby-img.travel-img {
+        max-width: 40%; /* Ensure travel images have consistent size */
     }
 
     header, footer {
