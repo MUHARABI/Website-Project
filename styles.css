@@ -305,5 +305,13 @@ footer {
     .hobby {
         max-width: 100%;
         overflow-x: auto; /* Allow horizontal scrolling if needed */
+        border-bottom: 1px solid #ddd; /* Ensure the bottom border is visible */
+    }
+
+    /* Ensure footer border continues */
+    footer {
+        position: relative;
+        width: 100%;
+        border-top: 1px solid #ddd; /* Add a top border to match the bottom border */
     }
 }
