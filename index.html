@@ -6,6 +6,7 @@
     <title>MUHAMMED H ARABI</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <img src="uic.png" alt="UIC Logo" class="header-img">
@@ -209,6 +210,7 @@
                 based on a search query using sets and files to sort through 
                 data based on input <br>
                 <button class="download-button" onclick="window.location.href='SearchEngine.zip'">Download Project File</button>
+                
             </p>
             <h4>Shape Canvaslist Application:</h4>
             <p>
@@ -225,17 +227,26 @@
         </section>
         <section id="PersonalProjects" class="tabcontent">
             <h2>Personal Projects</h2>
+            
             <h4>3D Obstacle Course Game:</h4>
             <p>
                 3D obstacle course game involving multiple courses, obstacles and speed options. <br>
-                <a href="https://muharabi.github.io/Obstacle-Roll/" target="_blank">Play</a>
+                <!-- Link to the web version -->
+                <a href="https://muharabi.github.io/Obstacle-Roll/" target="_blank">Play Web Version</a> <br><br>
+                <!-- Download button for Windows version -->
+                <button class="download-button" onclick="window.location.href='https://drive.google.com/uc?export=download&id=123TmSzIcmfuIv0gEYm_uTzM6S2LuDJ8T'">Download Windows Version</button> <br><br>
+                <button class="download-button" onclick="window.location.href='https://drive.google.com/uc?export=download&id=1qx05gVH_xxerniQzyORWKh-8JkYHCuas'">Download Linux Version</button>
+
             </p>
+        
             <h4>Connect 4 Game:</h4>
             <p>
                 An online version of the classic Connect 4 game with AI. <br>
                 <a href="https://muharabi.github.io/Connect4/" target="_blank">Play</a>
             </p>
         </section>
+        <iframe id="downloadFrame" class="hidden-iframe"></iframe>
+        
         <section id="Hobbies" class="tabcontent">
             <h2>Hobbies</h2>
         
@@ -280,5 +291,6 @@
         <p>&copy; 2023 Muhammed H Arabi</p>
     </footer>
     <script src="scripts.js"></script>
+    
 </body>
 </html>
