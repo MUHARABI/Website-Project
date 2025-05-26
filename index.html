@@ -1,252 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>MUHAMMED H ARABI</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="uic.png" alt="UIC Logo" class="header-img">
+        <img src="uic.png" alt="UIC Logo" class="header-img"/>
         <div class="header-text">
             <h1>Muhammed Arabi</h1>
-            <p>3rd year UIC CS student</p>
+            <p>4th Year UIC CS Student</p>
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/muhammed-arabi-b9659926b/" target="_blank">
-                    <img src="linkedin.png" alt="LinkedIn Logo" class="social-logo">
+                    <img src="linkedin.png" alt="LinkedIn Logo" class="social-logo"/>
                 </a>
-                <a href="https://www.instagram.com/muha.mmed10/" target="_blank">
-                    <img src="instagram.png" alt="Instagram Logo" class="social-logo">
+                <a href="https://www.instagram.com/muhammed_arabi10/" target="_blank">
+                    <img src="instagram.png" alt="Instagram Logo" class="social-logo"/>
                 </a>
             </div>
         </div>
     </header>
+
     <div class="tabs">
-    <button class="tablinks" aria-controls="Profile" onclick="openSection(event, 'Profile')">Profile</button>
-    <button class="tablinks" aria-controls="Education" onclick="openSection(event, 'Education')">Education</button>
-    <button class="tablinks" aria-controls="Languages" onclick="openSection(event, 'Languages')">Coding Languages</button>
-    <button class="tablinks" aria-controls="Experience" onclick="openSection(event, 'Experience')">Work Experience</button>
-    <button class="tablinks" aria-controls="Projects" onclick="openSection(event, 'Projects')">Projects</button>
-    <button class="tablinks" aria-controls="PersonalProjects" onclick="openSection(event, 'PersonalProjects')">Personal Projects</button>
-    <button class="tablinks" aria-controls="Hobbies" onclick="openSection(event, 'Hobbies')">Hobbies</button>
-</div>
+        <button class="tablinks" aria-controls="Profile" onclick="openSection(event, 'Profile')">Profile</button>
+        <button class="tablinks" aria-controls="Education" onclick="openSection(event, 'Education')">Education</button>
+        <button class="tablinks" aria-controls="Languages" onclick="openSection(event, 'Languages')">Languages</button>
+        <button class="tablinks" aria-controls="Experience" onclick="openSection(event, 'Experience')">Experience</button>
+        <button class="tablinks" aria-controls="Projects" onclick="openSection(event, 'Projects')">Projects</button>
+        <button class="tablinks" aria-controls="PersonalProjects" onclick="openSection(event, 'PersonalProjects')">Personal Projects</button>
+        <button class="tablinks" aria-controls="Hobbies" onclick="openSection(event, 'Hobbies')">Hobbies</button>
+    </div>
+
     <main>
         <section id="Profile" class="tabcontent">
             <div class="profile-container">
-                <img src="Profile.png" alt="Profile Image" class="profile-img">
-                <div class="profile-text">
-                    <div class="profile-name">
-                        <h2>Muhammed Husam Arabi</h2>
+                <img src="Profile.png" alt="Profile Image" class="profile-img" />
+                <h2 class="profile-heading">Muhammed Husam Arabi</h2>
+                <p class="profile-subheading">4th Year CS Student @ UIC</p>
+        
+                <div class="profile-card">
+                    <div class="info-row">
+                        <span>🎂 Age:</span> <span>20</span>
                     </div>
+                    <div class="info-row">
+                        <span>🎓 Major:</span> <span>Computer Science</span>
+                    </div>
+                    <div class="info-row">
+                        <span>🏫 University:</span> <span>University of Illinois at Chicago</span>
+                    </div>
+                    <div class="info-row">
+                        <span>📅 Graduation:</span> <span>Spring 2026</span>
+                    </div>
+                    <div class="info-row">
+                        <span>📞 Phone:</span> <span>(630)-333-0416</span>
+                    </div>
+                    <div class="info-row">
+                        <span>📧 Email:</span> <span>muhammedharabi10@gmail.com</span>
+                    </div>
+                </div>
+        
+                <div class="about-me">
+                    <h3>About Me</h3>
                     <p>
-                        Age: 20 <br>
-                        Major: Bachelor of Science in Computer Science <br>
-                        Education: University of Illinois at Chicago (Continuing Student)<br>
-                        Expected graduation: Spring 2026 <br><br>
-                        
-                        Phone Number: (630)-333-0416 <br>
-                        Email: muhammedharabi10@gmail.com <br><br>
-                        
-                        About me: <br>
-                        Enthusiastic and dedicated 3rd year Computer Science student with a 
-                        solid foundation in software development, problem-solving, and computer 
-                        systems developing and improving my programing skills and algorithmic 
-                        understanding of various programs and systems through first hand exposure 
-                        and engagement. 
+                        Passionate and dedicated 4th-year Computer Science student at UIC, driven by innovation and problem-solving. 
+                        Strong background in algorithms, system design, and full-stack software development through immersive coursework, team projects, and real-world applications.
                     </p>
                 </div>
             </div>
         </section>
         
-
         <section id="Education" class="tabcontent">
-            <h1>Courses Taken:</h1>
-            <h3>AP Computer Science A</h3>
-            <h4>High School Year: 2021-22</h4>
-            <p>
-                Introduction to the basic fundamentals of computer science including basic 
-                coding techniques in JAVA and basic discrete math skills. <br> <br>
-                Coding language(s) used: <b>JAVA</b> <br>
-            </p>
-            <h3>CS 111 Program design I</h3>
-            <h4>Fall 2022 (UIC)</h4>
-            <p>
-                Introduction to basic programming in Python. 
-                Exposure to variables, data types, arrays, 
-                and problem decomposition. 
-                Project based course that covers full 
-                basic fundamentals of beginners coding. <br> <br>
-                Coding language(s) used: <b>Python</b><br>
-            </p>
-            <h3>CS 141 Program design II</h3>
-            <h4>Spring 2023 (UIC)</h4>
-            <p>
-                This course covered Data abstraction 
-                and design through modules.
-                Introduced recursion, linked lists, 
-                file manipulation through various projects and 
-                programming excercies in C++ <br> <br>
-                Coding language(s) used: <b>C++</b> <br>
-            </p>
-            <h3>CS 151 Foundations of Computing</h4>
-            <h4>Spring 2023 (UIC)</h4>
-            <p>
-                This course introduced important discrete math 
-                concepts such as propositional logic, predicates, 
-                and quantifiers. <br>
-            </p>
-            <h3>CS 211 Programming Practicum</h3>
-            <h4>Fall 2023 (UIC)</h4>
-            <p>
-                This course introduced various debugging techniques and practices 
-                as well as further software development tools and practices. 
-                Practiced various test case strategies and good code manangement. <br> <br>
-                Coding language(s) used: <b>C++</b>, <b>C</b> <br>
-            </p>
-            <h3>CS 251 Data Structures</h3>
-            <h4>Fall 2023 (UIC)</h4>
-            <p>
-                This course provided important usage and analysis of various data structurs such 
-                as lists, stacks and queues, hash tables, search trees, and graphs. 
-                Also detailed the importance of runtime analysis and best vs worse case runtime.
-                Course gave real life interview expierence and exposure through interview style oral exams. <br> <br>
-                Coding language(s) used: <b>C++</b> <br>
-            </p>
-            <h3>CS 261 Machine Organization</h3>
-            <h4>Spring 2024 (UIC)</h4>
-            <p>
-                This course handles storage management and data representation in 
-                machine langauge of programs and data. 
-                Introduced memory hierchary and strenghtened 
-                skills in debugging through various gdb labs and projects. <br>
-                Coding language(s) used: <b>C++</b>, <b>C</b> <br>
-            </p>
-            <h3>CS 301 Languages and Automata</h3>
-            <h4>Spring 2024 (UIC)</h4>
-            <p>
-                This course introduced various theoretical computer concepts such as Parsing, 
-                context free langauges, Turing Machines, decidabilty and Chomsky hierchy of grammers. 
-                Also provided exposure to various different proof strategies such as pumping lemma. <br> <br>
-            </p>
-
+            <h2>📘 Courses Taken</h2>
+        
+            <div class="content-card">
+                <h3>AP Computer Science A</h3>
+                <h4>High School Year: 2021-22</h4>
+                <p>Intro to Java and discrete math.<br><b>Language:</b> JAVA</p>
+            </div>
+        
+            <div class="content-card">
+                <h3>CS 111 Program Design I</h3>
+                <h4>Fall 2022 (UIC)</h4>
+                <p>Python fundamentals and problem-solving.<br><b>Language:</b> Python</p>
+            </div>
+        
+            <div class="content-card">
+                <h3>CS 141 Program Design II</h3>
+                <h4>Spring 2023 (UIC)</h4>
+                <p>Data abstraction, recursion, file I/O.<br><b>Language:</b> C++</p>
+            </div>
+        
+            <div class="content-card">
+                <h3>CS 151 Foundations of Computing</h3>
+                <h4>Spring 2023 (UIC)</h4>
+                <p>Logic, predicates, and quantifiers.</p>
+            </div>
+        
+            <div class="content-card">
+                <h3>CS 211 Programming Practicum</h3>
+                <h4>Fall 2023 (UIC)</h4>
+                <p>Debugging and code management.<br><b>Languages:</b> C++, C</p>
+            </div>
+        
+            <div class="content-card">
+                <h3>CS 251 Data Structures</h3>
+                <h4>Fall 2023 (UIC)</h4>
+                <p>Stacks, queues, graphs, hashing.<br><b>Language:</b> C++</p>
+            </div>
+        
+            <div class="content-card">
+                <h3>CS 261 Machine Organization</h3>
+                <h4>Spring 2024 (UIC)</h4>
+                <p>Memory, debugging, GDB labs.<br><b>Languages:</b> C++, C</p>
+            </div>
+        
+            <div class="content-card">
+                <h3>CS 301 Languages and Automata</h3>
+                <h4>Spring 2024 (UIC)</h4>
+                <p>CFGs, Turing machines, Chomsky hierarchy.</p>
+            </div>
         </section>
+        
+
         <section id="Languages" class="tabcontent">
             <h2>Coding Languages</h2>
-            <div class="language-images">
-                <div class="image-container">
-                    <img src="c.png" alt="C Logo" class="language-img">
+            <div class="language-grid">
+                <div class="language-card">
+                    <img src="c.png" alt="C Logo" class="language-img" />
+                    <p>C</p>
                 </div>
-                <div class="image-container">
-                    <img src="c++.png" alt="C++ Logo" class="language-img">
+                <div class="language-card">
+                    <img src="c++.png" alt="C++ Logo" class="language-img" />
+                    <p>C++</p>
                 </div>
-                <div class="image-container">
-                    <img src="css.png" alt="CSS Logo" class="language-img">
+                <div class="language-card">
+                    <img src="Python.png" alt="Python Logo" class="language-img" />
+                    <p>Python</p>
                 </div>
-                <div class="image-container">
-                    <img src="Python.png" alt="Python Logo" class="language-img">
+                <div class="language-card">
+                    <img src="Java.png" alt="Java Logo" class="language-img" />
+                    <p>Java</p>
                 </div>
-                <div class="image-container">
-                    <img src="Java.png" alt="Java Logo" class="language-img">
+                <div class="language-card">
+                    <img src="Js.png" alt="JavaScript Logo" class="language-img" />
+                    <p>JavaScript</p>
                 </div>
-                <div class="image-container">
-                    <img src="Js.png" alt="JavaScript Logo" class="language-img">
+                <div class="language-card">
+                    <img src="HTML.png" alt="HTML Logo" class="language-img" />
+                    <p>HTML</p>
                 </div>
-                <div class="image-container">
-                    <img src="HTML.png" alt="HTML Logo" class="language-img">
+                <div class="language-card">
+                    <img src="css.png" alt="CSS Logo" class="language-img" />
+                    <p>CSS</p>
                 </div>
             </div>
         </section>
         
-        
-        <section id="Experience" class="tabcontent">
-            <h2>Work Experience</h2>
-            <h3>- Target</h3>
-            <p>
-                May 2024 - August 2024<br>
-                Position: Front of Store Attendant <br> <br>
-                Description: As a versatile front-end team member, I handled a range of responsibilities 
-                including working at the registers to assist guests with their purchases, managing the 
-                drive-up service to ensure timely delivery of orders to customers' vehicles, and maintaining 
-                the store's appearance as a cart attendant by regularly collecting and returning shopping carts.
-            </p>
-            <h3>- Kohls</h3>
-            <p>
-                March 2023 - August 2023 <br>
-                Position: Stockroom Operations Associate <br> <br>
-                Description: As a well-rounded team member at an Amazon station, 
-                I managed returns of Amazon orders, restocked inventory from trucks, 
-                and fulfilled omni-channel duties to complete online orders efficiently. <br> <br>
-            </p>
-        </section>
-        <section id="Projects" class="tabcontent">
-            <h4>Contact List Application:</h4>
-            <p>
-                An application that features add, 
-                delete, edit and sorting features for contact info 
-                such as email,
-                number, name, etc using C++ <br>
-                <button class="download-button" onclick="window.location.href='ContactList.zip'">Download Project File</button>
-            </p>
-            <h4>Library Application:</h4>
-            <p>
-                An application that uses a search query to find books using 
-                ISBN and will show the status of the
-                book in the library, where it's available, damaged, 
-                or checked out. <br>
-                <button class="download-button" onclick="window.location.href='Library app.zip'">Download Project File</button>
-            </p>
-            <h4>UIC Map Application:</h4>
-            <p>
-                An application that can display the distance from an inputed 
-                location on the UIC campus to an inputed desired location on 
-                campus using various data structural methods such as graphs, queues, sets, and maps. <br>
-                <button class="download-button" onclick="window.location.href='UicMap.zip'">Download Project File</button>
-            </p>
-            <h4>Search Engine Application:</h4>
-            <p>
-                An application that can conduct a search 
-                based on a search query using sets and files to sort through 
-                data based on input <br>
-                <button class="download-button" onclick="window.location.href='SearchEngine.zip'">Download Project File</button>
-                
-            </p>
-            <h4>Shape Canvaslist Application:</h4>
-            <p>
-                An application that uses linklists and pointers to identify, 
-                classify, and print specific shapes <br>
-                <button class="download-button" onclick="window.location.href='Shape.zip'">Download Project File</button>
-            </p>
-            <h4>Priority Queue Project:</h4>
-            <p>
-                An application that takes trees and manipulates, compares, 
-                and evaluates all types of aspects including size, and values. <br>
-                <button class="download-button" onclick="window.location.href='Queue.zip'">Download Project File</button>
-            </p>
-        </section>
-        <section id="PersonalProjects" class="tabcontent">
-            <h2>Personal Projects</h2>
-            
-            <h4>3D Obstacle Course Game:</h4>
-            <p>
-                3D obstacle course game involving multiple courses, obstacles and speed options. <br>
-                <!-- Link to the web version -->
-                <a href="https://muharabi.github.io/Obstacle-Roll/" target="_blank">Play Web Version</a> <br><br>
-                <!-- Download button for Windows version -->
-                <button class="download-button" onclick="window.location.href='https://drive.google.com/uc?export=download&id=123TmSzIcmfuIv0gEYm_uTzM6S2LuDJ8T'">Download Windows Version</button> <br><br>
-                <button class="download-button" onclick="window.location.href='https://drive.google.com/uc?export=download&id=1qx05gVH_xxerniQzyORWKh-8JkYHCuas'">Download Linux Version</button> <br><br>
-                <button class="download-button" onclick="window.location.href='https://drive.google.com/uc?export=download&id=1Psmg1nq5YTnepWOEWGYJDuzebKT87yhw'">Download Mac Version</button>
-                
 
-            </p>
+        <section id="Experience" class="tabcontent">
+            <h2>💼 Work Experience</h2>
         
-            <h4>Connect 4 Game:</h4>
-            <p>
-                An online version of the classic Connect 4 game with AI. <br>
-                <a href="https://muharabi.github.io/Connect4/" target="_blank">Play</a>
-            </p>
+            <div class="content-card">
+                <h3>Target</h3>
+                <p>May 2024 - August 2024<br>Front of Store Attendant</p>
+                <p>Handled registers, drive-up service, and cart returns.</p>
+            </div>
+        
+            <div class="content-card">
+                <h3>Kohl's</h3>
+                <p>March 2023 - August 2023<br>Stockroom Operations Associate</p>
+                <p>Amazon returns, restocking, and omni-channel order fulfillment.</p>
+            </div>
         </section>
         
+
+        <section id="Projects" class="tabcontent">
+            <h2>🛠 Projects</h2>
+        
+            <div class="content-card">
+                <h4>Contact List Application</h4>
+                <p>Add/edit/delete contacts using C++</p>
+                <button class="download-button" onclick="window.location.href='ContactList.zip'">Download</button>
+            </div>
+        
+            <div class="content-card">
+                <h4>Library Application</h4>
+                <p>Search for books by ISBN and availability.</p>
+                <button class="download-button" onclick="window.location.href='Library app.zip'">Download</button>
+            </div>
+        
+            <div class="content-card">
+                <h4>UIC Map Application</h4>
+                <p>Shortest path between locations using data structures.</p>
+                <button class="download-button" onclick="window.location.href='UicMap.zip'">Download</button>
+            </div>
+        
+            <div class="content-card">
+                <h4>Search Engine Application</h4>
+                <p>Set-based file search from user input.</p>
+                <button class="download-button" onclick="window.location.href='SearchEngine.zip'">Download</button>
+            </div>
+        
+            <div class="content-card">
+                <h4>Shape Canvaslist Application</h4>
+                <p>Pointer-based shape classification and display.</p>
+                <button class="download-button" onclick="window.location.href='Shape.zip'">Download</button>
+            </div>
+        
+            <div class="content-card">
+                <h4>Priority Queue Project</h4>
+                <p>Tree evaluation and manipulation based on priority.</p>
+                <button class="download-button" onclick="window.location.href='Queue.zip'">Download</button>
+            </div>
+        </section>
+        
+
+        <section id="PersonalProjects" class="tabcontent">
+            <h2>🎮 Personal Projects</h2>
+        
+            <div class="content-card">
+                <h3>3D Obstacle Course Game</h3>
+                <p>A 3D platformer game with multiple levels, obstacles, and adjustable speed settings.</p>
+                <div class="button-row">
+                    <a href="https://muharabi.github.io/Obstacle-Roll/" target="_blank" class="download-button">🌐 Play Web Version</a>
+                    <a href="https://drive.google.com/uc?export=download&id=123TmSzIcmfuIv0gEYm_uTzM6S2LuDJ8T" class="download-button"> Download Windows</a>
+                    <a href="https://drive.google.com/uc?export=download&id=1qx05gVH_xxerniQzyORWKh-8JkYHCuas" class="download-button"> Download Linux</a>
+                    <a href="https://drive.google.com/uc?export=download&id=1Psmg1nq5YTnepWOEWGYJDuzebKT87yhw" class="download-button"> Download Mac</a>
+                </div>
+            </div>
+        
+            <div class="content-card">
+                <h3>Connect 4 AI Game</h3>
+                <p>A fun browser-based version of Connect 4 with built-in AI opponent logic. Play directly online.</p>
+                <a href="https://muharabi.github.io/Connect4/" target="_blank" class="download-button">🎮 Play Now</a>
+            </div>
+        </section>
+        
+
         <section id="Hobbies" class="tabcontent">
             <h2>Hobbies</h2>
         
@@ -285,11 +278,13 @@
                     languages, and lifestyles around the globe.
                 </p>
             </div>
-        </section>        
+        </section>
     </main>
+
     <footer>
-        <p>&copy; 2023 Muhammed H Arabi</p>
+        <p>&copy; 2025 Muhammed H Arabi</p>
     </footer>
+
     <script src="scripts.js"></script>
 </body>
 </html>
