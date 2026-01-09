@@ -23,7 +23,7 @@ https://muharabi.github.io/Website-Project/
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5**
 - **CSS3**
@@ -32,7 +32,7 @@ https://muharabi.github.io/Website-Project/
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Website-Project/
