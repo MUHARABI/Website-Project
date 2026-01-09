@@ -1,14 +1,14 @@
-# 🌐 Personal Website – Muhammed Arabi
+# Personal Website – Muhammed Arabi
 
 A **personal portfolio website** built to showcase my **projects, experience, and interests** in computer science, software development, and game development.  
 The site serves as a central hub for my work, including **live demos** and **downloadable builds** for personal projects across **Windows, macOS, and Linux**.
 
-🔗 **Live Website**:  
+**Live Website**:  
 https://muharabi.github.io/Website-Project/
 
 ---
 
-## 🚀 Features
+## Features
 
 - Personal profile and introduction
 - **Personal Projects** section with:
