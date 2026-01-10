@@ -22,3 +22,25 @@ function openSection(evt, sectionName) {
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementsByClassName("tablinks")[0].click();
 });
+
+// Timeline reveal animation
+const timelineItems = document.querySelectorAll(".timeline-item");
+
+const timelineObserver = new IntersectionObserver(
+    entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    },
+    { threshold: 0.3 }
+);
+
+timelineItems.forEach(item => timelineObserver.observe(item));
+
+document.querySelectorAll('.course-card').forEach(card => {
+    card.addEventListener('click', () => {
+        card.classList.toggle('active');
+    });
+});
