@@ -6,6 +6,8 @@
     <title>MUHAMMED H ARABI</title>
     <link rel="stylesheet" href="styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -27,7 +29,7 @@
     <div class="tabs">
         <button class="tablinks" aria-controls="Profile" onclick="openSection(event, 'Profile')">Profile</button>
         <button class="tablinks" aria-controls="Education" onclick="openSection(event, 'Education')">Education</button>
-        <button class="tablinks" aria-controls="Experience" onclick="openSection(event, 'Experience')">Experience</button>
+        <button class="tablinks" aria-controls="Timeline" onclick="openSection(event, 'Timeline')">Timeline</button>
         <button class="tablinks" aria-controls="Projects" onclick="openSection(event, 'Projects')">Projects</button>
         <button class="tablinks" aria-controls="PersonalProjects" onclick="openSection(event, 'PersonalProjects')">Personal Projects</button>
         <button class="tablinks" aria-controls="Hobbies" onclick="openSection(event, 'Hobbies')">Hobbies</button>
@@ -48,7 +50,7 @@
                         <span>Major:</span> <span>Computer Science</span>
                     </div>
                     <div class="info-row">
-                        <span>University:</span> <span>UIC</span>
+                        <span>University:</span> <span>University of Illinois at Chicago (UIC)</span>
                     </div>
                     <div class="info-row">
                         <span>Graduation:</span> <span>Spring 2026</span>
@@ -73,235 +75,830 @@
         
         <section id="Education" class="tabcontent">
             <h2>Courses Taken</h2>
-        
-            <div class="content-card">
-                <h3>AP Computer Science A</h3>
-                <h4>High School Year: 2021-22</h4>
-                <p>Intro to Java and discrete math.<br><b>Language:</b> JAVA</p>
-            </div>
-        
-            <div class="content-card">
-                <h3>CS 111 Program Design I</h3>
-                <h4>Fall 2022 (UIC)</h4>
-                <p>Python fundamentals and problem-solving.<br><b>Language:</b> Python</p>
-            </div>
-        
-            <div class="content-card">
-                <h3>CS 141 Program Design II</h3>
-                <h4>Spring 2023 (UIC)</h4>
-                <p>Data abstraction, recursion, file I/O.<br><b>Language:</b> C++</p>
-            </div>
-        
-            <div class="content-card">
-                <h3>CS 151 Foundations of Computing</h3>
-                <h4>Spring 2023 (UIC)</h4>
-                <p>Logic, predicates, and quantifiers.</p>
-            </div>
-        
-            <div class="content-card">
-                <h3>CS 211 Programming Practicum</h3>
-                <h4>Fall 2023 (UIC)</h4>
-                <p>Debugging and code management.<br><b>Languages:</b> C++, C</p>
-            </div>
-        
-            <div class="content-card">
-                <h3>CS 251 Data Structures</h3>
-                <h4>Fall 2023 (UIC)</h4>
-                <p>Stacks, queues, graphs, hashing.<br><b>Language:</b> C++</p>
-            </div>
-        
-            <div class="content-card">
-                <h3>CS 261 Machine Organization</h3>
-                <h4>Spring 2024 (UIC)</h4>
-                <p>Memory, debugging, GDB labs.<br><b>Languages:</b> C++, C</p>
-            </div>
-        
-            <div class="content-card">
-                <h3>CS 301 Languages and Automata</h3>
-                <h4>Spring 2024 (UIC)</h4>
-                <p>CFGs, Turing machines, Chomsky hierarchy.</p>
-            </div>
-            <div class="content-card">
-                <h3>CS 341 Programming Language Concepts</h3>
-                <h4>Fall 2024 (UIC)</h4>
-                <p>Functional programming, language design, and evaluation strategies.</p>
+
+            <!-- HIGH SCHOOL -->
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>AP Computer Science A</h3>
+                        <span class="course-term">2021 – 2022 · High School</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Introduction to object-oriented programming, problem-solving,
+                        and foundational discrete mathematics concepts.
+                    </p>
+                    <div class="course-tags">
+                        <span>Java</span>
+                        <span>OOP</span>
+                        <span>Algorithms</span>
+                    </div>
+                </div>
             </div>
 
-            <div class="content-card">
-                <h3>CS 342 Software Design</h3>
-                <h4>Fall 2024 (UIC)</h4>
-                <p>Object-oriented design patterns, UML, and large-scale software development.</p>
+            <!-- FALL 2022 -->
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 111: Program Design I</h3>
+                        <span class="course-term">Fall 2022 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Python fundamentals including control flow, functions,
+                        problem-solving strategies, and program structure.
+                    </p>
+                    <div class="course-tags">
+                        <span>Python</span>
+                        <span>Problem Solving</span>
+                        <span>Programming Basics</span>
+                    </div>
+                </div>
             </div>
 
-            <div class="content-card">
-                <h3>CS 361 Systems Programming</h3>
-                <h4>Spring 2025 (UIC)</h4>
-                <p>Low-level programming, memory management, processes, and system calls.</p>
+            <!-- SPRING 2023 -->
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 141: Program Design II</h3>
+                        <span class="course-term">Spring 2023 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Advanced programming concepts including recursion,
+                        data abstraction, file I/O, and memory management.
+                    </p>
+                    <div class="course-tags">
+                        <span>C++</span>
+                        <span>Recursion</span>
+                        <span>File I/O</span>
+                    </div>
+                </div>
             </div>
 
-            <div class="content-card">
-                <h3>CS 362 Computer Design</h3>
-                <h4>Spring 2025 (UIC)</h4>
-                <p>Computer architecture, instruction sets, and hardware–software interaction.</p>
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 151: Foundations of Computing</h3>
+                        <span class="course-term">Spring 2023 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Mathematical foundations of computer science including
+                        logic, proofs, predicates, and formal reasoning.
+                    </p>
+                    <div class="course-tags">
+                        <span>Logic</span>
+                        <span>Discrete Math</span>
+                        <span>Proofs</span>
+                    </div>
+                </div>
             </div>
 
-            <div class="content-card">
-                <h3>CS 401 Computer Algorithms I</h3>
-                <h4>Spring 2025 (UIC)</h4>
-                <p>Algorithm design, time complexity, graph algorithms, and optimization.</p>
+            <!-- FALL 2023 -->
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 211: Programming Practicum</h3>
+                        <span class="course-term">Fall 2023 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Debugging techniques, code analysis, version control,
+                        and collaborative programming practices.
+                    </p>
+                    <div class="course-tags">
+                        <span>C++</span>
+                        <span>C</span>
+                        <span>Debugging</span>
+                    </div>
+                </div>
             </div>
 
-            <div class="content-card">
-                <h3>CS 378 Framework-Based Development</h3>
-                <h4>Fall 2025 (UIC)</h4>
-                <p>Modern web frameworks, component-based architecture, and full-stack apps.</p>
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 251: Data Structures</h3>
+                        <span class="course-term">Fall 2023 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Implementation and analysis of core data structures
+                        including stacks, queues, trees, graphs, and hash tables.
+                    </p>
+                    <div class="course-tags">
+                        <span>C++</span>
+                        <span>Data Structures</span>
+                        <span>Graphs</span>
+                    </div>
+                </div>
             </div>
 
-            <div class="content-card">
-                <h3>CS 418 Introduction to Data Science</h3>
-                <h4>Fall 2025 (UIC)</h4>
-                <p>Data analysis, visualization, machine learning, and real world datasets.</p>
+            <!-- SPRING 2024 -->
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 261: Machine Organization</h3>
+                        <span class="course-term">Spring 2024 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Low-level computer architecture, memory hierarchy,
+                        assembly concepts, and debugging with GDB.
+                    </p>
+                    <div class="course-tags">
+                        <span>C</span>
+                        <span>C++</span>
+                        <span>Computer Architecture</span>
+                    </div>
+                </div>
             </div>
 
-            <div class="content-card">
-                <h3>CS 421 Language Processing</h3>
-                <h4>Fall 2025 (UIC)</h4>
-                <p>Natural language processing, parsing, and computational linguistics.</p>
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 301: Languages and Automata</h3>
+                        <span class="course-term">Spring 2024 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Formal languages, automata theory, grammars,
+                        and computational models.
+                    </p>
+                    <div class="course-tags">
+                        <span>Automata</span>
+                        <span>Formal Languages</span>
+                        <span>Theory</span>
+                    </div>
+                </div>
             </div>
 
-            <div class="content-card">
-                <h3>CS 480 Database Systems</h3>
-                <h4>Fall 2025 (UIC)</h4>
-                <p>Relational databases, SQL, indexing, query optimization, and transactions.</p>
+            <!-- FALL 2024 -->
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 341: Programming Language Concepts</h3>
+                        <span class="course-term">Fall 2024 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Functional programming paradigms, language semantics,
+                        and evaluation strategies.
+                    </p>
+                    <div class="course-tags">
+                        <span>Functional Programming</span>
+                        <span>Intro to databases</span>
+                        <span>SQL</span>
+                        <span>F#</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 342: Software Design</h3>
+                        <span class="course-term">Fall 2024 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Object oriented design, UML, design patterns,
+                        and large scale software development.
+                    </p>
+                    <div class="course-tags">
+                        <span>OOP</span>
+                        <span>Design Patterns</span>
+                        <span>UML</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SPRING 2025 -->
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 361: Systems Programming</h3>
+                        <span class="course-term">Spring 2025 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Processes, memory management, system calls,
+                        and low level OS interactions.
+                    </p>
+                    <div class="course-tags">
+                        <span>C</span>
+                        <span>Systems</span>
+                        <span>Memory</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 362: Computer Design</h3>
+                        <span class="course-term">Spring 2025 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Computer architecture concepts including instruction sets,
+                        datapaths, CPU organization, pipelining basics, and hardware software interaction.
+                    </p>
+
+                    <div class="course-tags">
+                        <span>Computer Architecture</span>
+                        <span>Instruction Sets</span>
+                        <span>Datapath</span>
+                        <span>Hardware/Software</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 401: Computer Algorithms I</h3>
+                        <span class="course-term">Spring 2025 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Algorithm design including divide & conquer,
+                        greedy strategies, dynamic programming, and graph algorithms.
+                    </p>
+                    <div class="course-tags">
+                        <span>Algorithms</span>
+                        <span>Optimization</span>
+                        <span>Graphs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FALL 2025 -->
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 378: Framework-Based Development</h3>
+                        <span class="course-term">Fall 2025 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Modern web development using framework based architecture,
+                        reusable components, state management, and full stack workflows.
+                    </p>
+
+                    <div class="course-tags">
+                        <span>Android Studio</span>
+                        <span>Frameworks</span>
+                        <span>Flutter App</span>
+                        <span>Dart</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 418: Introduction to Data Science</h3>
+                        <span class="course-term">Fall 2025 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Data analysis, visualization, machine learning,
+                        and real-world datasets.
+                    </p>
+                    <div class="course-tags">
+                        <span>Data Science</span>
+                        <span>ML</span>
+                        <span>Visualization</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 421: Language Processing</h3>
+                        <span class="course-term">Fall 2025 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Natural language processing fundamentals including parsing concepts,
+                        language modeling ideas, and computational linguistics foundations.
+                    </p>
+
+                    <div class="course-tags">
+                        <span>NLP</span>
+                        <span>Parsing</span>
+                        <span>Language Models</span>
+                        <span>Computational Linguistics</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-card course-card">
+                <div class="course-header">
+                    <div>
+                        <h3>CS 480: Database Systems</h3>
+                        <span class="course-term">Fall 2025 · UIC</span>
+                    </div>
+                    <span class="course-toggle">+</span>
+                </div>
+
+                <div class="course-body">
+                    <p>
+                        Relational databases, SQL, indexing,
+                        query optimization, and transactions.
+                    </p>
+                    <div class="course-tags">
+                        <span>Databases</span>
+                        <span>SQL</span>
+                        <span>Indexing</span>
+                    </div>
+                </div>
             </div>
 
         </section>
 
-        <section id="Experience" class="tabcontent">
-            <h2>Work Experience</h2>
-            <div class="content-card">
-                <h3>Northern Trust — Technology Intern</h3>
-                <p>
-                    Shared Services · Chicago, IL<br>
-                    <strong>June 2025 – August 2025</strong>
-                </p>
 
-                <ul style="margin-left: 18px;">
-                    <li>
-                        Developed full-stack enhancements for the Bulk Replay Utility,
-                        enabling dynamic message replay from databases to Kafka and Solace
-                        using <b>Spring Boot</b> and <b>React</b>.
-                    </li>
-                    <li>
-                        Collaborated with technical leads and mentors to implement backend
-                        validation and messaging logic, ensuring system reliability.
-                    </li>
-                    <li>
-                        Participated in intern Lunch & Learns, volunteer initiatives, and
-                        a team competition to design a SharePoint site for future interns.
-                    </li>
-                </ul>
-            </div>
+        <section id="Timeline" class="tabcontent">
+            <h2>Career Timeline</h2>
 
-        
-            <div class="content-card">
-                <h3>Target</h3>
-                <p>May 2024 - August 2024<br>Front of Store Attendant</p>
-                <p>Handled registers, drive-up service, and cart returns.</p>
-            </div>
-        
-            <div class="content-card">
-                <h3>Kohl's</h3>
-                <p>March 2023 - August 2023<br>Stockroom Operations Associate</p>
-                <p>Amazon returns, restocking, and omni-channel order fulfillment.</p>
+            <div class="timeline">
+
+                <!-- OVERBOARD -->
+                <div class="timeline-item">
+                    <span class="timeline-dot"></span>
+                    <div class="timeline-card">
+                        <h3>OVERBOARD</h3>
+                        <span class="timeline-date">Jun 2025 – Jan 2026</span>
+                        <p>
+                            Designed and developed a cross-platform online naval combat game
+                            featuring real-time multiplayer synchronization, optimized ship-to-ship combat,
+                            and a custom launch website for distribution.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Unity</span>
+                            <span>Photon</span>
+                            <span>C#</span>
+                            <span>Multiplayer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NORTHERN TRUST -->
+                <div class="timeline-item">
+                    <span class="timeline-dot"></span>
+                    <div class="timeline-card">
+                        <h3>Northern Trust: Technology Intern</h3>
+                        <span class="timeline-date">Jun 2025 – Aug 2025</span>
+                        <p>
+                            Developed full-stack enhancements using Spring Boot and React.
+                            Enabled dynamic message replay from databases to Kafka and Solace,
+                            improving system reliability and operational efficiency.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Spring Boot</span>
+                            <span>React</span>
+                            <span>Kafka</span>
+                            <span>Solace</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OBSTACLE ROLL -->
+                <div class="timeline-item">
+                    <span class="timeline-dot"></span>
+                    <div class="timeline-card">
+                        <h3>Obstacle Roll</h3>
+                        <span class="timeline-date">Jul 2024 – Aug 2024</span>
+                        <p>
+                            Built an infinite obstacle-course game where players dodge obstacles
+                            and collect power-ups granting temporary immunity.
+                            Deployed as both a web experience and downloadable app.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>Game Logic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LIBRARY APPLICATION -->
+                <div class="timeline-item">
+                    <span class="timeline-dot"></span>
+                    <div class="timeline-card">
+                        <h3>Library Management System</h3>
+                        <span class="timeline-date">Aug 2024 – Sep 2024</span>
+                        <p>
+                            Developed an interactive library management website supporting
+                            book addition, removal, searching, and availability tracking
+                            using modular UI components.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>C++</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TARGET -->
+                <div class="timeline-item">
+                    <span class="timeline-dot"></span>
+                    <div class="timeline-card">
+                        <h3>Target: Front End Associate</h3>
+                        <span class="timeline-date">May 2024 – Aug 2024</span>
+                        <p>
+                            Delivered customer service, handled drive-up operations,
+                            and supported daily store logistics in a fast-paced retail environment.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- KOHLS -->
+                <div class="timeline-item">
+                    <span class="timeline-dot"></span>
+                    <div class="timeline-card">
+                        <h3>Kohl’s: Stockroom Operations Associate</h3>
+                        <span class="timeline-date">Apr 2023 – Aug 2023</span>
+                        <p>
+                            Managed inventory operations, omni-channel fulfillment,
+                            and warehouse logistics to support store efficiency.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- STARTED UIC -->
+                <div class="timeline-item">
+                    <span class="timeline-dot"></span>
+                    <div class="timeline-card">
+                        <h3>University of Illinois at Chicago</h3>
+                        <span class="timeline-date">Aug 2022 – Present</span>
+                        <p>
+                            Began Bachelor’s degree in Computer Science,
+                            building a strong foundation in algorithms, systems,
+                            software design, and full-stack development.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Computer Science</span>
+                            <span>Algorithms</span>
+                            <span>Systems</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
+
         
 
         <section id="Projects" class="tabcontent">
-            <h2>🛠 Projects</h2>
-        
-            <div class="content-card">
+            <h2>Projects</h2>
+
+            <!-- FEATURED PROJECT (unchanged) -->
+            <div class="featured-project">
+                <div class="featured-left">
+                    <h3>World Cup Question Answering System</h3>
+                    <p class="project-tag">CS Project · NLP · Databases · RAG</p>
+
+                    <p>
+                        A full Retrieval-Augmented Generation (RAG) system built on World Cup data.
+                        Uses PostgreSQL for structured data, FAISS for semantic vector search,
+                        and LLMs to generate accurate answers from historical documents.
+                    </p>
+
+                    <ul class="feature-list">
+                        <li>PostgreSQL & SQL schema</li>
+                        <li>Sentence Transformers embeddings</li>
+                        <li>FAISS vector database</li>
+                        <li>Flask web application</li>
+                        <li>Role-based authentication</li>
+                    </ul>
+
+                    <div class="featured-actions">
+                        <a href="https://github.com/MUHARABI/Website-Project/releases/download/v.1.0.4/ap-database.zip"
+                        target="_blank"
+                        class="download-button">
+                            Download
+                        </a>
+                    </div>
+                </div>
+
+                <div class="video-frame">
+                    <video controls>
+                        <source src="demo.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <!-- REGULAR PROJECTS (HOVER EXPAND) -->
+
+            <div class="content-card project-card">
                 <h4>Contact List Application</h4>
-                <p>Add/edit/delete contacts using C++</p>
-                <button class="download-button" onclick="window.location.href='https://github.com/MUHARABI/Website-Project/releases/download/v1.0.0/ContactList.zip'">Download</button>
+                <p class="project-summary">Add, edit, and delete contacts using C++.</p>
+
+                <div class="project-expand">
+                    <p>
+                        Implemented file persistence, dynamic memory management,
+                        and efficient search operations using STL.
+                    </p>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>STL</span>
+                        <span>File I/O</span>
+                    </div>
+                </div>
+
+                <button class="download-button"
+                        onclick="window.location.href='https://github.com/MUHARABI/Website-Project/releases/download/v1.0.0/ContactList.zip'">
+                    Download
+                </button>
             </div>
-        
-            <div class="content-card">
+
+            <div class="content-card project-card">
                 <h4>Library Application</h4>
-                <p>Search for books by ISBN and availability.</p>
-                <button class="download-button" onclick="window.location.href='https://github.com/MUHARABI/Website-Project/releases/download/v1.0.1/Library.app.zip'">Download</button>
+                <p class="project-summary">Search for books by ISBN and availability.</p>
+
+                <div class="project-expand">
+                    <p>
+                        Designed a modular system supporting search, add, remove,
+                        and availability tracking for library books.
+                    </p>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>Data Structures</span>
+                    </div>
+                </div>
+
+                <button class="download-button"
+                        onclick="window.location.href='https://github.com/MUHARABI/Website-Project/releases/download/v1.0.1/Library.app.zip'">
+                    Download
+                </button>
             </div>
-        
-            <div class="content-card">
+
+            <div class="content-card project-card">
                 <h4>UIC Map Application</h4>
-                <p>Shortest path between locations using data structures.</p>
-                <button class="download-button" onclick="window.location.href='https://github.com/MUHARABI/Website-Project/releases/download/v1.0.1/UicMap.zip'">Download</button>
+                <p class="project-summary">Shortest path between campus locations.</p>
+
+                <div class="project-expand">
+                    <p>
+                        Implemented graph traversal algorithms to compute
+                        optimal paths across mapped campus locations.
+                    </p>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>Graphs</span>
+                        <span>Algorithms</span>
+                    </div>
+                </div>
+
+                <button class="download-button"
+                        onclick="window.location.href='https://github.com/MUHARABI/Website-Project/releases/download/v1.0.1/UicMap.zip'">
+                    Download
+                </button>
             </div>
-        
-            <div class="content-card">
+
+            <div class="content-card project-card">
                 <h4>Search Engine Application</h4>
-                <p>Set-based file search from user input.</p>
-                <button class="download-button" onclick="window.location.href='https://github.com/MUHARABI/Website-Project/releases/download/v1.0.1/SearchEngine.zip'">Download</button>
+                <p class="project-summary">Set-based file search from user input.</p>
+
+                <div class="project-expand">
+                    <p>
+                        Built a lightweight search engine using inverted indexing
+                        and set operations for fast query resolution.
+                    </p>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>Sets</span>
+                        <span>Indexing</span>
+                    </div>
+                </div>
+
+                <button class="download-button"
+                        onclick="window.location.href='https://github.com/MUHARABI/Website-Project/releases/download/v1.0.1/SearchEngine.zip'">
+                    Download
+                </button>
             </div>
-        
-            <div class="content-card">
+
+            <div class="content-card project-card">
                 <h4>Shape Canvaslist Application</h4>
-                <p>Pointer-based shape classification and display.</p>
-                <button class="download-button" onclick="window.location.href='https://github.com/MUHARABI/Website-Project/releases/download/v1.0.1/shape.zip'">Download</button>
+                <p class="project-summary">Pointer-based shape classification.</p>
+
+                <div class="project-expand">
+                    <p>
+                        Used inheritance and polymorphism to classify and render
+                        geometric shapes dynamically.
+                    </p>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>OOP</span>
+                        <span>Pointers</span>
+                    </div>
+                </div>
+
+                <button class="download-button"
+                        onclick="window.location.href='https://github.com/MUHARABI/Website-Project/releases/download/v1.0.1/shape.zip'">
+                    Download
+                </button>
             </div>
-        
-            <div class="content-card">
+
+            <div class="content-card project-card">
                 <h4>Priority Queue Project</h4>
-                <p>Tree evaluation and manipulation based on priority.</p>
-                <button class="download-button" onclick="window.location.href='https://github.com/MUHARABI/Website-Project/releases/download/v1.0.1/Queue.zip'">Download</button>
+                <p class="project-summary">Tree-based priority queue evaluation.</p>
+
+                <div class="project-expand">
+                    <p>
+                        Implemented priority queues using tree structures,
+                        supporting insertion, deletion, and evaluation.
+                    </p>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>Trees</span>
+                        <span>Data Structures</span>
+                    </div>
+                </div>
+
+                <button class="download-button"
+                        onclick="window.location.href='https://github.com/MUHARABI/Website-Project/releases/download/v1.0.1/Queue.zip'">
+                    Download
+                </button>
             </div>
+
         </section>
+
         
 
         <section id="PersonalProjects" class="tabcontent">
             <h2>Personal Projects</h2>
-            <div class="content-card">
-                <h3>OVERBOARD: Multiplayer Ship Battle Game</h3>
+
+            <!-- FLAGSHIP PROJECT -->
+            <div class="content-card personal-hero">
+                <span class="featured-badge">Flagship Project</span>
+
+                <h3>OVERBOARD</h3>
+                <p class="project-tag">Multiplayer Game · Unity · Photon PUN</p>
+
                 <p>
-                    A real time multiplayer naval combat game built with Unity and Photon PUN.
-                    Features online matchmaking, synchronized ship movement, health systems,
-                    and competitive ship-to-ship combat. Designed, developed, and deployed end to end,
-                    including a custom launch website for distribution.
+                    A real-time multiplayer naval combat game featuring online matchmaking,
+                    synchronized ship physics, power-ups, and competitive gameplay.
                 </p>
 
-                <div class="feature-grid">
-                    <span>Real-time Multiplayer (Photon PUN)</span>
-                    <span>Unity Physics & Combat Systems</span>
-                    <span>React + Tailwind Launch Website</span>
-                    <span>Windows & macOS Builds</span>
+                <div class="project-stats">
+                    <div>
+                        <strong>Platforms</strong>
+                        <span>Windows · macOS</span>
+                    </div>
+                    <div>
+                        <strong>Mode</strong>
+                        <span>Online Multiplayer</span>
+                    </div>
+                    <div>
+                        <strong>Focus</strong>
+                        <span>Networking & Gameplay Systems</span>
+                    </div>
                 </div>
 
+                <div class="feature-grid">
+                    <span>Photon PUN</span>
+                    <span>Unity C#</span>
+                    <span>Network Synchronization</span>
+                    <span>Custom Launch Website</span>
+                    <span>Cross-Platform Builds</span>
+                </div>
 
                 <div class="button-row">
-                    <a href="https://muharabi.github.io/overboard-site/" target="_blank" class="download-button">
-                        🌐 View Game Website
+                    <a href="https://muharabi.github.io/overboard-site/"
+                    target="_blank"
+                    class="download-button">
+                        View Project Website
                     </a>
                 </div>
             </div>
 
-        
+            <!-- OBSTACLE COURSE -->
             <div class="content-card">
                 <h3>3D Obstacle Course Game</h3>
-                <p>A 3D platformer game with multiple levels, obstacles, and adjustable speed settings.</p>
+                <p class="project-tag">Game Development · Web & Desktop</p>
+
+                <p>
+                    A fast-paced 3D platformer featuring dynamic obstacles,
+                    collectible power-ups, and adjustable difficulty settings.
+                </p>
+
+                <div class="project-stats">
+                    <div>
+                        <strong>Platforms</strong>
+                        <span>Web · Windows · macOS</span>
+                    </div>
+                    <div>
+                        <strong>Genre</strong>
+                        <span>Platformer</span>
+                    </div>
+                    <div>
+                        <strong>Core Logic</strong>
+                        <span>Collision & Power-Ups</span>
+                    </div>
+                </div>
+
                 <div class="button-row">
-                    <a href="https://muharabi.github.io/Obstacle-Roll/" target="_blank" class="download-button">🌐 Play Web Version</a>
-                    <a href="https://github.com/MUHARABI/Website-Project/releases/download/v.1.0.3/ObstacleRun.WINDOWS.zip" class="download-button"> Download Windows</a>
-                    <a href="https://github.com/MUHARABI/Website-Project/releases/download/v1.0.2/ObstacleRun.MAC.zip" class="download-button"> Download Mac</a>
+                    <a href="https://muharabi.github.io/Obstacle-Roll/"
+                    target="_blank"
+                    class="download-button">
+                        Play Web Version
+                    </a>
+                    <a href="https://github.com/MUHARABI/Website-Project/releases/download/v.1.0.3/ObstacleRun.WINDOWS.zip"
+                    class="download-button">
+                        Download Windows
+                    </a>
+                    <a href="https://github.com/MUHARABI/Website-Project/releases/download/v1.0.2/ObstacleRun.MAC.zip"
+                    class="download-button">
+                        Download macOS
+                    </a>
                 </div>
             </div>
-        
+
+            <!-- CONNECT 4 -->
             <div class="content-card">
-                <h3>Connect 4 AI Game</h3>
-                <p>A fun browser-based version of Connect 4 with built-in AI opponent logic. Play directly online.</p>
-                <a href="https://muharabi.github.io/Connect4/" target="_blank" class="download-button">🎮 Play Now</a>
+                <h3>Connect 4</h3>
+                <p class="project-tag">Game Logic · AI · Browser</p>
+
+                <p>
+                    A browser-based Connect 4 implementation featuring
+                    an AI opponent with strategic decision-making logic.
+                </p>
+
+                <div class="project-stats">
+                    <div>
+                        <strong>Platform</strong>
+                        <span>Web</span>
+                    </div>
+                    <div>
+                        <strong>Opponent</strong>
+                        <span>AI Controlled</span>
+                    </div>
+                    <div>
+                        <strong>Focus</strong>
+                        <span>Game State & AI Logic</span>
+                    </div>
+                </div>
+
+                <div class="button-row">
+                    <a href="https://muharabi.github.io/Connect4/"
+                    target="_blank"
+                    class="download-button">
+                        Play Online
+                    </a>
+                </div>
             </div>
         </section>
+
         
 
         <section id="Hobbies" class="tabcontent">
@@ -342,7 +939,6 @@
     <script src="scripts.js"></script>
 </body>
 </html>
-
 
 
 
